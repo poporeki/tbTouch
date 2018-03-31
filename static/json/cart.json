@@ -1,0 +1,59 @@
+{"list":[
+    {
+      "shop_name": "华特星博数码专营",
+      "p_name":
+        "小米5x手机壳硅胶小米5s保护套创意全包防摔米五潮男女款皮纹软壳",
+      "p_group": "小米5S - 酷睿黑",
+      "p_now_price": 28,
+      "p_origin_price": 98,
+      "p_num": 1,
+      "imgSrc":"/static/images/item1_mi.jpg_.webp"
+    },
+    {
+      "shop_name": "vanlord尊禄旗舰店",
+      "p_name":
+        "VANLORD钱包男短款牛仔布竖拉链青年三折多功能票夹多卡位皮夹子",
+      "p_group": "神秘黑色",
+      "p_now_price": 159,
+      "p_origin_price": 398,
+      "p_num": 1,
+      "imgSrc":"/static/images/qb.jpg_.webp"
+    },
+    {
+      "shop_name": "天猫超市",
+      "p_name":
+        "凉茶植物饮料王老吉310ml*24罐怕上火喝王老吉",
+      "p_group": "",
+      "p_now_price": 82,
+      "p_origin_price": 98,
+      "p_num": 1,
+      "imgSrc":"/static/images/wlj.jpg_.webp"
+    },
+    {
+      "shop_name":"housing旗舰店",
+      "p_name":
+        "创意卡通马克杯子陶瓷水杯可爱情侣杯咖啡牛奶杯办公室水杯带盖勺",
+      "p_group": "熊熊杯/蓝",
+      "p_now_price": 19,
+      "p_origin_price": 46,
+      "p_num": 2,
+      "imgSrc":"/static/images/cup.jpg_.webp"
+    },
+    {
+      "shop_name":"C",
+      "p_name":
+        "小米5x手机壳硅胶小米5s保护套创意全包防摔米五潮男女款皮纹软壳",
+      "p_group": "小米5S - 酷睿黑",
+      "p_now_price": 18,
+      "p_origin_price": 58,
+      "p_num": 1
+    },
+    {"shop_name":"d",
+      "p_name":
+        "小米5x手机壳硅胶小米5s保护套创意全包防摔米五潮男女款皮纹软壳",
+      "p_group": "小米5S - 酷睿黑",
+      "p_now_price": 28,
+      "p_origin_price": 98,
+      "p_num": 1
+    }
+  ]}

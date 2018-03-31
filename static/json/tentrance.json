@@ -1,0 +1,46 @@
+{
+    "status":200,
+    "msg":"",
+    "list":[{
+        "name": "天猫",
+        "href": "#tmall",
+        "imgSrc": "/static/images/en-tmall.png"
+    }, {
+        "name": "聚划算",
+        "href": "#jhs",
+        "imgSrc": "/static/images/en-jhs.png"
+    }, {
+        "name": "天猫国际",
+        "href": "#tmall",
+        "imgSrc": "/static/images/en-inal.png"
+    }, {
+        "name": "外卖",
+        "href": "#tmall",
+        "imgSrc": "/static/images/en-wm.png"
+    }, {
+        "name": "天猫超市",
+        "href": "#tmall",
+        "imgSrc": "/static/images/en-mkt.png"
+    }, {
+        "name": "充值中心",
+        "href": "#tmall",
+        "imgSrc": "/static/images/en-cz.png"
+    }, {
+        "name": "飞猪旅行",
+        "href": "#tmall",
+        "imgSrc": "/static/images/en-fz.png"
+    }, {
+        "name": "领金币",
+        "href": "#tmall",
+        "imgSrc": "/static/images/en-gold.png"
+    }, {
+        "name": "拍卖",
+        "href": "#tmall",
+        "imgSrc": "/static/images/en-pm.png"
+    }, {
+        "name": "分类",
+        "href": "#tmall",
+        "imgSrc": "/static/images/en-fl.png"
+    }]
+    
+}
