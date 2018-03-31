@@ -1,0 +1,18 @@
+{
+  "list": [{
+    "title": "园艺",
+    "text": "四月花事之月季 | 王大爷园艺小课堂",
+    "href": "#yy",
+    "imgSrc": "/static/images/headlines.png"
+  }, {
+    "title": "热文",
+    "text": "大众这台神车只卖5万，五菱宏光都拜服",
+    "href": "#yy",
+    "imgSrc": "/static/images/headlines.png"
+  }, {
+    "title": "围观",
+    "text": "小米众筹孙悟空，价格接近2000元",
+    "href": "#yy",
+    "imgSrc": "/static/images/headlines.png"
+  }]
+}

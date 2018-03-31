@@ -1,0 +1,18 @@
+{
+  "status": 200,
+  "msg": "",
+  "list": [{
+    "href": "#a",
+    "imgSrc": "/static/images/nav-img1.jpg"
+  }, {
+    "href": "#b",
+    "imgSrc": "/static/images/nav-img2.jpg"
+  }, {
+    "href": "#c",
+    "imgSrc": "/static/images/nav-img3.jpg"
+  }, {
+    "href": "#d",
+    "imgSrc": "/static/images/nav-img4.jpg"
+  }]
+
+}

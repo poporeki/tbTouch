@@ -1,0 +1,301 @@
+
+header.cart{
+    display: flex;
+    height: 8vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #fff;
+}
+
+header.cart>div{
+    flex:1;
+}
+header.cart .back-lk{
+    cursor:pointer;
+    text-align: left;
+    padding-left: 2vw;
+}
+
+header.cart .header-title{
+
+    text-align: center;
+}
+header.cart .right-box{
+    padding-right: 2vw;
+}
+/* ---------------- */
+section{
+    display: flex;
+    width: 100vw;
+}
+section .product-list{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.4rem;
+    
+}
+.list-item{
+    margin-top: 2vh;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgb(196, 196, 196);
+}
+.item-header>dl{
+    display: flex;
+    height: 8vh;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
+}
+.item-header>dl>dd:nth-child(1){
+    padding-left: 2vw;
+    flex-grow: 1;
+}
+.item-header>dl>dd:nth-child(2){
+    flex-grow: 10;
+    display: flex;
+    justify-content: left;
+}
+.item-header>dl>dd:nth-child(3){
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 2vw;
+    cursor: pointer;
+}
+.allitem{
+    display: inline-block;
+    height: 1.6rem;
+    width: 1.6rem;
+    cursor: pointer;
+    background-image: url("/static/images/choose.png");
+    background-size: cover;
+    cursor: pointer;
+}
+.allitem-active{
+    background-image: url("/static/images/active.png");
+}
+.s-type-lk{
+    display: inline-block;
+    height: 1.6rem;
+    width: 1.6rem;
+    background-image: url("/static/images/tmall_Logo.png");
+    background-size: cover;
+}
+.edit-btn{
+
+}
+/* -------------- */
+.s-item-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.s-item-list{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction:column-reverse;
+    background-color: #fff;
+}
+.p-item{
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 0; 
+    background-color: #f5f5f5;
+}
+.p-item .tips{
+    padding-left: 2vw;
+    flex-grow: 1;
+}
+.p-item .item-img{
+    padding: 0 2vw;
+    flex-grow:2;
+    align-self: flex-start;
+}
+.p-item .i-con{
+    flex-grow: 9;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-self: flex-start;
+    font-size: 1rem;
+    padding-right: 2vw;
+}
+.p-item .edit-content{
+    position: absolute;
+    right: 0;
+    top: 0;
+    flex-grow: 9;
+    height: 100%;
+    width: 68%;
+    background-color: #f5f5f5;
+}
+.i-con .s-tit{
+    align-self: flex-start;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+.i-con .s-group{
+    color: #999;
+}
+.i-con .s-price{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.i-con .s-price .now-price{
+    color: #f60;
+}
+.i-con .s-price .origin-price{
+    color: #999;
+    text-decoration: line-through;
+}
+.i-con .s-price .s-quantity{
+    align-self: flex-end;
+}
+.edit-content .del-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30%;
+    background-color: #f60;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display:flex;
+    display: -webkit-flex; 
+    align-items:center;
+    justify-content: center;
+}
+
+.edit-content .input-group{
+    position: relative;
+    display: flex;
+    margin-right: 30%;
+    height: 6vh;
+    justify-content: center;
+    align-content: center;
+    border-bottom: 1px solid #fff;
+}
+.edit-content .input-group .input-group-addon{
+    display: flex;
+    position: relative;
+    width: 33.333%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #fff;
+    border-bottom: none;
+    border-top: none;
+}
+.edit-content .input-group .input-group-addon:nth-child(1){
+    border-left: none;
+}
+.edit-content .input-group .form-control{
+    display: block;
+    width: 33.333%;
+    background-color: inherit;
+    border: none;
+    text-align: center;
+}
+/* -------------------footer------------------- */
+.cart-footer{
+    position: fixed;
+    display: flex;
+    width:100%;
+    height: 8vh;
+    bottom:0;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    font-size: 1.6rem;
+    border-top: 1px solid rgb(230, 230, 230);
+}
+.cart-footer .right-item,.cart-footer .left-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left:2vw;
+}
+.cart-footer .total-block{
+    padding-right:2vw;
+}
+.cart-footer .uploadCart{
+    display: flex;
+    box-sizing: border-box;
+    padding: 1vh 2vw;
+    height: 100%;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    background-color: #f50;
+    color: #fff;
+}
+
+section.end{
+    margin-top: 10vh;
+}
+
+/* ---------------modal-------------- */
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.5);
+    font-size: 1.6rem;
+    
+}
+.modal .modal-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+    height: 20%;
+    border-radius: 2px;
+    background-color: #fff;
+}
+.modal .modal-content .modal-header{
+    height: 70%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.modal .modal-content .modal-body{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border-top: 1px solid  rgb(230, 230, 230);
+}
+.modal .modal-body .btn{
+    width: 50%;
+    
+}
+.modal .modal-body .btn:nth-child(odd){
+    border-right: 1px solid rgb(230, 230, 230);
+}
